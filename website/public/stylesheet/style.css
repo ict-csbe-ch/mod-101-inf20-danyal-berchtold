@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+body {
+    background-color: #164A41;
+    color: #FFFFFF;
+    font-family: 'Aleo', serif;
+    margin: 0;
+}
+ul, a {
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #4D774E;
+    padding: 5px 0 5px 0;
+}
+.top-navigation-ul {
+    display: flex;
+    margin: 0;
+    font-size: 13px;
+}
+.top-navigation-ul li a {
+    color: #F1B24A;
+}
+.top-navigation-ul li {
+    margin: 0 10px 0 10px;
+}
+.main-header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #9DC88D;
+    border-bottom: 5px solid #164A41;
+}
+.main-header hgroup {
+    font-family: 'Cinzel', serif;
+    margin: 0 10px 0 10px;
+}
+.main-navigation-ul {
+    display: flex;
+    margin: 0;
+}
+.main-navigation-ul li {
+    margin: 0 10px 0 10px;
+}
+.slideshow {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    border-top: 5px solid #164A41;
+}
+.slideshow-image {
+    width: 100%;
+    background-size: cover;
+    background-image: url("../images/slideshow/Wikimedia_Foundation_Servers-8055_13.jpg");
+}
+.products {
+    display: flex;
+    justify-content: center;
+}
+
+.website-main-article {
+    display: flex;
+}
+.main-article-image {
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-color: aliceblue;
+    background-image: url("../images/photo.jpg");
+}
+.article-aside {
+    text-align: justify;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #4D774E;
+}
+.footer-navigation-ul {
+    display: flex;
+}
+.references {
+    background: #9DC88D;
+}
+.references-images {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.references-images-redhat {
+    width: 150px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/companies/redhat.png");
+    margin: 0 10px 0 10px;
+    opacity: 0.3;
+}
+.references-images-redhat:hover {
+    opacity: 1;
+}
+.references-images-texasinstruments {
+    width: 150px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/companies/texasinstruments.png");
+    margin: 0 10px 0 10px;
+    opacity: 0.3;
+}
+.references-images-texasinstruments:hover {
+    opacity: 1;
+}
+.references-images-oracle {
+    width: 150px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/companies/oracle.png");
+    margin: 0 10px 0 10px;
+    opacity: 0.3;
+}
+.references-images-oracle:hover {
+    opacity: 1;
+}

@@ -1,34 +1,69 @@
 <!DOCTYPE html>
-<html lang="de">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>preAlpha: Startseite</title>
-    <link rel="stylesheet" href="public/stylesheet/style.css">
-    <script type="text/javascript" src="public/javascript/index.js"></script>
+	<meta charset="utf-8">
+	<title>preAlpha: Startseite</title>
+	<link rel="stylesheet" href="public/stylesheet/index.css">
 </head>
 <body>
-    <div id="preload-wrapper"></div>
-    <header class="top-header">
-        <nav class="top-navigation">
-            <ul>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Kundenlogin</a></li>
-                <li><a href="#">Fernwartung</a></li>
-                <li><a href="#">Jobs</a></li>
-            </ul>
-            <input type="search" placeholder="Suche...">
-        </nav>
-    </header>
-    <header class="main-header">
-        <hgroup><h1><a href="#">preAlpha</a></h1></hgroup>
-        <nav class="main-navigation">
-            <ul>
-                <li><a href="#">Dienstleistungen</a></li>
-                <li><a href="#">Referenzen</a></li>
-                <li><a href="#">Über uns</a></li>
-                <li><a href="#">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
+	<!-- website header -->
+	<header class="main-header">
+		<hgroup class="main-header-title"><a href="#">preAlpha</a></hgroup>
+		<nav class="main-header-navigation">
+			<div class="search">
+				<input class="search-input" type="search" placeholder="Suche...">
+			</div>
+			<ul>
+				<li><a href="#">Produkte</a></li>
+				<li><a href="#">Dienstleistungen</a></li>
+				<li><a href="#">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- slideshow -->
+	<article class="slideshow">
+		<div class="slideshow-left slideshow-button">&#10094;</div>
+		<div class="slideshow-box">
+			<header class="slideshow-header">
+				<hgroup>
+					<h1>Lorem ipsum dolor sit amet</h1>
+				</hgroup>
+			</header>
+			<section class="slideshow-content">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br>do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</section>
+		</div>
+		<div class="slideshow-right slideshow-button">&#10095;</div>
+	</article>
+	<!-- preview --> 
+	<article class="preview">
+		<div class="preview-box"></div>
+		<div class="preview-box-content">
+			Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua.
+		</div>
+		<div class="preview-box2"></div>
+		<div class="preview-box-content">
+			Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua.
+		</div>
+		<nav>
+			<ul class="nav-ul-preview">
+				<li><a href="#">Lorem Ipsum</a></li>
+				<li><a href="#">Lorem Ipsum</a></li>
+				<li><a href="#">Lorem Ipsum</a></li>
+			</ul>
+		</nav>
+	</article>
+	<!-- website footer -->
+	<footer class="main-footer">
+		<nav class="main-footer-navigation">
+			<ul>
+				<li><a href="#">Impressum</a></li>
+				<li><a href="#">Datenschutz</a></li>
+				<li><a href="#">Kontakt</a></li>
+			</ul>
+		</nav>
+		<hgroup class="main-footer-title"><a href="#">preAlpha</a></hgroup>
+	</footer>
+</script>
 </body>
 </html>
