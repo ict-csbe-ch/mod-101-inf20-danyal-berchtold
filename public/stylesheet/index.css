@@ -56,6 +56,9 @@ footer {
     align-items: center;
     padding: 100px 20px 100px 20px;
 }
+.welcome-buttons {
+    margin-top: 10px;
+}
 .welcome-content h2 {
     margin-bottom: 10px;
 }
